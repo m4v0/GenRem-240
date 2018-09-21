@@ -30,18 +30,21 @@ para que seja processados todos os boletos de cobrança pelo banco.
    > php genrem-240 -u=1 -h=localhost -d=102018
 
 # Nome dos Arquivos Remessa 
-Bradesco Net Empresa: 
+Bradesco Net Empresa:
+
 O Arquivo Remessa deverá ter a seguinte formatação:
 
 CBDDMM??.REM
-CB : Cobrança Bradesco
-DD : O Dia geração do arquivo
-MM : O Mês da geração do Arquivo
-?? : variáveis alfanumérico-Numéricas
-Ex.: 01, AB, A1 etc.
+> CB : Cobrança Bradesco
+> DD : O Dia geração do arquivo
+> MM : O Mês da geração do Arquivo
+> ?? : variáveis alfanumérico-Numéricas
+> Ex.: 01, AB, A1 etc.
 
-.Rem : Extensão do arquivo.
-Exemplo: CB010501.REM ou CB0105AB.REM ou CB0105A1.REM
+.REM : Extensão do arquivo.
+> Exemplo: CB010501.REM ou CB0105AB.REM ou CB0105A1.REM
 
 Para arquivo remessa para teste, a extensão deverá ser TST.
-Exemplo: CB010501.TST, o retorno será disponibilizado como CB010501.RST.
+> Exemplo: CB010501.TST, o retorno será disponibilizado como CB010501.RST.
+
+readme.210920181300
