@@ -1,0 +1,20 @@
+{
+    "Company":
+        [
+          {
+            "business_unit": "1",
+            "company_registration": "00000000000171",
+            "company_name": "CENTRO DE FORMAÇÃO DE FULANO DE TAL",
+            "business_code": "1234567",
+            "agreement_code": "1234567",
+            "transferor_code": "1234567",
+            "bank_code": "237",
+            "bank_name": "BRADESCO",
+            "agency_number": "1037",
+            "agency_digit": "5",
+            "current_account": "000171",
+            "current_digit": "1",
+            "wallet_code": "009"
+          }
+        ]
+  }
