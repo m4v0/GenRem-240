@@ -14,9 +14,11 @@ no qual tem como objetivo principal criar arquivo de Remessa CNAB 240 posições
 para que seja processados todos os boletos de cobrança pelo banco.
 
 # Descrição do arquivo de remessa Formato CNAB
- - Registro 0 : Header Label
- - Registro 1 : Transação (Segmentos P, Q e R)
- - Registro 9 : Trailler
+ - Registro 0 : Header File
+ - Registro 1 : Header Lote
+ - Registro 3 : Transação (Segmentos P, Q e R)
+ - Registro 5 : Trailler Lote
+ - Registro 9 : Trailler File
  
 # Procedimentos para criação do arquivo e envio
  * Procedimentos da Empresa
